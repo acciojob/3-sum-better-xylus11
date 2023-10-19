@@ -8,12 +8,11 @@ function threeSum(arr, target) {
 			if(sum<=target)
 		{
 			sum = arr[i]+sum;
-			i++;
 		}
 		 else{
 			 i++;
 		 }
-			
+			i++;
 		}
 	return sum;
   
